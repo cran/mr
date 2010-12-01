@@ -1,0 +1,10 @@
+useDynLib(mr,csampler,bsolver)
+export(mrgs,mrps,mrbn,mrnb,mrsn,
+       mrind, mrarma, mrcluster, mrre, mrmatern,
+       mr,mrparvar,mrse,mrprof,mroptions,
+       mrhausman,estfun.mr,bread.mr)
+S3method(print, mr)
+S3method(coef, mr)
+S3method(logLik, mr)
+S3method(residuals, mr)
+
